@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import SearchBar from "../SearchBar/SearchBar";
 import { fetchMovie } from "../../services/movieService";
-import MovieGrid from "../MovoeGrid/MovieGrid";
+import MovieGrid from "../MovieGrid/MovieGrid";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import type { Movie } from "../../types/movie";
