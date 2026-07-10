@@ -9,7 +9,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isError, setIsError] = useState<boolean>(false);
 
-  const handleSubmit = async (query: string) => { 
+  const handleSubmit = async () => { 
     try {
       setIsLoading(true);
       setIsError(false);
